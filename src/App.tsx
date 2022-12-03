@@ -1,10 +1,13 @@
 import { FC } from 'react'
 import './App.css'
+import Map from './Map'
 
 const App: FC = () => {
   return (
-    <div>Hello World</div>
-  )
+    <div>
+      <Map />
+    </div>
+  );
 }
 
 export default App;
