@@ -2,7 +2,7 @@ import React, {FC, useEffect, useRef, useState} from 'react'
 import mapboxgl from 'mapbox-gl';
 import './Map.css';
 
-// This token used in official mapboxgl examples
+// This token used in official mapbox-gl examples
 // https://github.com/mapbox/mapbox-react-examples
 mapboxgl.accessToken =
   "pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4M29iazA2Z2gycXA4N2pmbDZmangifQ.-g_vE53SD2WrJ6tFX7QHmA";
