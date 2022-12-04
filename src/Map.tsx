@@ -1,6 +1,6 @@
-import React, {FC, useEffect, useRef, useState} from 'react'
-import mapboxgl from 'mapbox-gl';
-import './Map.css';
+import React, { FC, useEffect, useRef, useState } from "react";
+import mapboxgl from "mapbox-gl";
+import "./Map.css";
 
 // This token used in official mapbox-gl examples
 // https://github.com/mapbox/mapbox-react-examples
@@ -27,6 +27,6 @@ const Map: FC = () => {
   }, []);
 
   return <div className="map-container" ref={mapContainerRef} />;
-}
+};
 
 export default Map;
